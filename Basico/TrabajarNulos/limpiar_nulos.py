@@ -5,4 +5,7 @@ import numpy as np
 
 df = pd.read_csv('Basico/fifa_players.csv', encoding='latin1')
 
-print(df.isnull().sum())
+#print(df.isnull().sum()) 
+
+#print(df.shape) #imprimir numero de columnas y filas 
+#print(df.columns) #nombre de las columnas 
